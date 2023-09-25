@@ -1,0 +1,127 @@
+body {
+  display: flexbox;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+section{
+  height:100vh;
+}
+#navbar {
+  margin-top: 0;
+}
+.bgvideo {
+  width: 100vw;
+ position: fixed;
+  height: 100vh;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: brightness(90%);
+}
+#bgvideo2{ width: 100vw;
+
+   height: 100vh;
+   object-fit: cover;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   z-index: -1;
+   filter: brightness(90%);}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  display: flex;
+  margin-left: 150px;
+  float: right;
+}
+#logo {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  font: bold;
+  font-size: 33px;
+  color: rgb(141, 179, 167);
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+li a:hover {
+  background-color: #b8b7a79f;
+}
+
+.active {
+  background-color: rgba(206, 204, 197, 0.397);
+  border-radius: 10px;
+}
+
+h1 {
+  color: #5f6459;
+
+  font-size: 50px;
+  text-align: center;
+}
+#h1 {
+  background-color: rgb(141, 179, 167, 0.7);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 300px;
+  padding-top: 0;
+}
+h2 {
+  color:rgb(72, 90, 84);
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+}
+#button {
+  margin-left: 720px;
+  background-color: #bec0ac;
+  border: none;
+  color: #5f6459;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 13px;
+  margin-bottom: 50px;
+}
+
+#arrow {
+  position: absolute;
+  bottom: 0;
+  left: 400px;
+  width: 40px;
+  height: 40px;
+  
+}
+#h2{
+  background-color: rgb(141, 179, 167, 0.7);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 100vh;
+  padding-top: 0;
+}
